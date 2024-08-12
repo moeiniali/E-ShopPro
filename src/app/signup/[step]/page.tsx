@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import PhonNumber from './PhonNumber';
 import Otp from './Otp'
 import Role from './Role';
-
+import NotFound from '@/app/not-found';
 
 type Params = {
   step: string
@@ -27,9 +27,8 @@ const page = ({ params }: { params: Params }) => {
       case `role`:
         return (<Role />)
       default:
-        return <div>404</div>
+        return (<NotFound />)
     }
-
   }
 
   return (

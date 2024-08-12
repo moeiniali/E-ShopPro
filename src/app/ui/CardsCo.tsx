@@ -1,10 +1,15 @@
 import React from 'react'
-
+import { Flex } from 'antd'
 type Props = {}
 
 const CardsCo = (props: Props) => {
  return (
-  <div>CardsCo</div>
+  <>
+   <Flex className="">
+
+   </Flex>
+
+  </>
  )
 }
 
