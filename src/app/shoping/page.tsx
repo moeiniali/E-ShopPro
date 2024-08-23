@@ -16,11 +16,6 @@ const page = ({ searchParams }: {
 
 
 
-
-
-
-
-
   return (
     <Flex justify='center' align='flex-start' className='w-full h-screen bg-green-200 p-2'>
 
@@ -33,7 +28,19 @@ const page = ({ searchParams }: {
           {/* <CreateInvoice /> */}
         </div>
         <Suspense key={query + currentPage} fallback={<ProductsSkeleton />}>
-          <CardsCo query={query} currentPage={currentPage} />
+          <CardsCo
+            icon='/images/shoes.svg'
+            productColors='sdfsdf'
+            productDesc='dsfsdf'
+            productInventory='dfsdfsdf'
+            productName='sdfsdfsdf'
+            productOff='dsfsfsdf'
+            productPrice='dddddddd'
+            productSize='321'
+
+          // query={query} 
+          // currentPage={currentPage}
+          />
         </Suspense>
         <div className="mt-5 flex w-full justify-center">
           {/* <Pagination totalPages={totalPages} /> */}
