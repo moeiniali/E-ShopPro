@@ -30,13 +30,13 @@ const page = ({ searchParams }: {
         <Suspense key={query + currentPage} fallback={<ProductsSkeleton />}>
           <CardsCo
             icon='/images/shoes.svg'
-            productColors='sdfsdf'
-            productDesc='dsfsdf'
-            productInventory='dfsdfsdf'
-            productName='sdfsdfsdf'
-            productOff='dsfsfsdf'
-            productPrice='dddddddd'
-            productSize='321'
+            productName='Nike React Miler'
+            productDesc='Men’s Road Running shoes'
+            productColors='Colors'
+            productSize='4 - Sizes available  '
+            productInventory='Only 5 left'
+            productOff='25% off'
+            productPrice='₹5600'
 
           // query={query} 
           // currentPage={currentPage}
