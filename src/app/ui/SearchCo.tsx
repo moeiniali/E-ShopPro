@@ -37,7 +37,6 @@ const SearchCo = ({ placeholder }: { placeholder: string }) => {
     }}
    />
 
-
   </div>
 
 
